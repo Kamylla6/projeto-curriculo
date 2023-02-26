@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(182, 248, 248);
+}
+
+
+#header {
+    background-color: rgb(224, 188, 141);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+#nameAndTitle {
+    margin: 0 auto;
+    background-color: rgb(182, 248, 248);
+    width: 400px;
+    text-align: center;
+
+}
+
+#nameAndTitle h1, h2 {
+    line-height: 30px;
+    margin: 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-column-gap: 20px; /* espaço entre colunas */
+    
+}
+
+#siderbar, #content {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.card {
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 20px;
+    
+    
+    
+    
+    
+}
